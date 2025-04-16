@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAZI OIL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>MAZI OIL</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Pure & Natural Oil</h2>
+        <p>Discover the best quality oil for your needs.</p>
+        <button class="cta-button">Explore Products</button>
+    </section>
+    <div class="image"> 
+        <img src="./Screen Shot 2025-03-18 at 9.43.56 AM.png" alt="" height="300">
+        <img src="./image.png" alt="" height="300">
+    
+    </div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About MAZI OIL</h2>
+        <p>MAZI OIL is committed to providing high-quality, natural oils that are both healthy and environmentally friendly. We source the best ingredients for your well-being.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MAZI OIL | All rights reserved</p>
+    </footer>
+
+    <script src="script.js">
+        // Toggle Navigation Menu on Mobile
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
+    </script>
+</body>
+</html>
